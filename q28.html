@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        section {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        margin: 0;
+        }
+
+        header {
+        height: 100px;
+       
+        background-color: aqua;
+        }
+
+        .content {
+        flex-grow: 1;
+        padding: 20px;
+        background-color: black;
+        }
+
+        footer {
+        height: 50px;
+        
+        background-color: blue;
+        }
+        header,footer{
+            margin: 10px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <section>
+    <header >
+        <p>Header goes here...</p>
+      </header>
+      
+      <div class="content">
+        <p>Content goes here...</p>
+      </div>
+      
+      <footer>
+        <p>Footer goes here...</p>
+      </footer>
+    </section>
+</body>
+</html>

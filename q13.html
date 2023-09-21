@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .gallery {
+      margin: 0px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    .gallery-item {
+      box-sizing: border-box;
+      margin: 10px;
+      background-color: lightgray;
+    }
+
+    @media (max-width: 768px) {
+      .gallery-item {
+        width: 100%; 
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery">
+    <div class="gallery-item">
+          <img src="hd-wikipedia-logo.png" alt="Image 1">
+    </div>
+
+    <div class="gallery-item">
+
+        <img src="IMG_9024.jpg" alt="Image 2">
+      
+    </div>
+    <div class="gallery-item">
+     <img src="person.jpg" alt="Image 3">
+     
+    </div>
+   
+  </div>
+</body>
+</html>

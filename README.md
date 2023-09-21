@@ -1,1 +1,0 @@
-# HEAD-Web-Bootcamp-Practical
